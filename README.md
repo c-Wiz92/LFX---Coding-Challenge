@@ -6,8 +6,9 @@
 
 ## The 'Vector Optimized' directory contains benchmark results which used vector instructions via compiler flags. <br/>
 
-### Each directory has the following files, along with readme file. 
-naive.c - this is the naive code that is unoptimized<br/>
-tiling.c - this is code which uses the loop-tiling approach for better performance<br/>
-function.c - this file contains the 2 functions used in the code to allocate memory, fill values. <br/>
+### Each directory has the following files, along with a brief readme file. 
+naive.c - this contains naive code that is un-optimized<br/>
+tiling.c - contains optimized code which uses loop-tiling for better performance<br/>
+function.c - this file contains the 2 functions that are used in the above files to allocate memory and fill values<br/>
 headers.h - this file contains the function prototypes
+.txt files - the final gprof benchmark reports
